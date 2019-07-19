@@ -9,11 +9,12 @@ int main(int argc, char const *argv[])
 	{
 		arr[i] = atoi(argv[i+1]);
 	}
+	printf("Before reversing array\n");
 	for(int i=0;i<(size);i++)
 	{
 		printf("%d\n",arr[i]);
 	}
-	printf("\n\n\n");
+	printf("Before reversing array\n\n");
 	int temp,size1=size-1;
 	for(int i=0;i<((size-1)/2);i++)
 	{
